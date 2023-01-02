@@ -1,0 +1,74 @@
+/* Đăng ký */
+.body{
+    position: relative;
+    margin: 100px;
+}
+.authentic__form-wrap{    
+    width: 500px;
+    background-color: var(--while-color);
+    margin: auto;
+    border: 1px solid var(--background-color);
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.authentic__form-header{
+    margin: 20px 0;
+    text-align: center;
+}
+
+.authentic__form-heading{
+    font-size: 1.8rem;
+    padding: 15px 0;
+}
+
+.authentic__form--nextPage-login{
+    font-size: 1.6rem;
+    padding: 5px 0 10px 0;
+    text-decoration: none;
+}
+
+.authentic__form--nextPage-login a{
+    font-size: 1.6rem;
+    padding: 5px 0 10px 0;
+    text-decoration: none;
+    color: var(--background-color);
+}
+
+
+.authentic__form-body label{
+    padding: 0 10px;
+    font-size: 1.6rem;
+    width: 100%;
+}
+
+.authentic__form-body input{
+    font-size: 1.5rem;
+    outline: none;
+    padding: 6px 0 6px 8px;
+    margin: 3px ;
+    width: 100%;
+}
+
+.authentic__form-footer{
+    margin: 25px 0;
+    text-align: center;
+}
+
+.authentic__form-footer input{
+    padding: 8px 15px;
+    font-size: 1.5rem;
+    background-color: var(--background-color);
+    color: var(--while-color);
+    border: 1px solid var(--background-color);
+    cursor: pointer;
+}
+
+.show_password{
+    margin: 20px 160px;
+}
+
+.show_password .show{
+   width: 20px;
+   margin: 0;
+}
